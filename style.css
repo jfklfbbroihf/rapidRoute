@@ -24,12 +24,13 @@ nav {
     background-color: #1F487E;
     text-align: center;
     padding: 10px;
+    
 }
 
 nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #1F487E;
+    color: rgb(241, 241, 242);
     font-weight: bold;
 }
 
@@ -54,6 +55,58 @@ footer {
     color: #EFF7CF;
     text-align: center;
     padding: 10px;
+    body {
+    background-color: #1F487E;
+    color: #EFF7CF;
+    text-align: center;
+    padding: 20px;
+}
+
+header,
+footer,
+section,
+.card,
+.accordion-item {
+    background-color: #1F487E !important;
+    color: #EFF7CF !important;
+}
+
+.navbar {
+    background-color: #16355d !important;
+}
+
+.card {
+    border: 2px solid #EFF7CF;
+}
+
+.card .btn {
+    background-color: #EFF7CF;
+    color: #1F487E;
+    border: none;
+}
+
+.card .btn:hover {
+    background-color: #dfeab7;
+}
+
+a {
+    color: #EFF7CF;
+}
+
+.accordion-button {
+    background-color: #1F487E;
+    color: #EFF7CF;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #16355d;
+    color: #EFF7CF;
+}
+
+.accordion-body {
+    background-color: #1F487E;
+    color: #EFF7CF;
+}
 }
 
 
